@@ -29,7 +29,7 @@ ext {
     set("PUBLISH_SCM_DEVELOPER_CONNECTION", "scm:git:https://github.com/InfantAjith96/Material3-Theme-Analyzer.git")
     set("PUBLISH_SCM_URL", "https://github.com/InfantAjith96/Material3-Theme-Analyzer")
 }
-//apply(from = "${rootProject.projectDir}/scripts/publish.gradle")
+apply(from = "${rootProject.projectDir}/scripts/publish-module.gradle")
 //https://raw.githubusercontent.com/material3theme/materialtheme/main/publish-module.gradle
 
 android {
